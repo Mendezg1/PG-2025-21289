@@ -1,0 +1,22 @@
+# Dependencias para Sistema de Detección de Infracciones de Tránsito
+
+# YOLOv8 - Detección de objetos
+ultralytics>=8.0.0
+
+# DeepSORT - Tracking de vehículos
+deep-sort-realtime>=1.3.2
+
+# OpenCV - Procesamiento de video e imágenes
+opencv-python>=4.8.0
+
+# NumPy - Cálculos numéricos
+numpy>=1.24.0
+
+# PyTorch (instalado automáticamente por ultralytics, pero se puede especificar)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Dependencias adicionales (instaladas automáticamente, pero listadas para referencia)
+scipy>=1.10.0
+pillow>=9.5.0
+pyyaml>=6.0
