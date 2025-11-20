@@ -124,7 +124,6 @@ python main.py
 ```
 
 El script procesará el video de entrada (`vids/rojo2.mp4`) y generará:
-- Visualización en tiempo real con las detecciones
 - Video de salida con anotaciones en `vids/output/violations_output.mp4`
 
 ### Detener la ejecución
