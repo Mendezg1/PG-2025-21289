@@ -9,7 +9,7 @@ sign_model = YOLO(".\\models\\signs_best.pt")
 
 tracker = DeepSort(max_age=150, n_init=10, nms_max_overlap=0.6, max_cosine_distance=0.7, nn_budget=100, max_iou_distance=0.7)
 
-cap = cv2.VideoCapture(".\\vids\\rojo2.mp4")
+cap = cv2.VideoCapture(".\\vids\\alto3.mp4")
 
 # Configurar video de salida
 frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
